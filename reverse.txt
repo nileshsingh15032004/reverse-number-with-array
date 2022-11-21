@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int
+main ()
+{
+  int i;
+ 
+  cin >> i;
+  int a[i];
+  for (int j = 0; j < i; j++)
+    {
+      cin >> a[j];
+    }
+
+  int j = i - 1;
+  for (; j >= 0; j--)
+    cout << a[j] << " ";
+  return 0;
+}
