@@ -6,14 +6,15 @@ int
 main ()
 {
   int i;
- 
+ cout<<"Enter Size Of Array ";
   cin >> i;
+  cout<<"Enter Arrays ";
   int a[i];
   for (int j = 0; j < i; j++)
     {
       cin >> a[j];
     }
-
+   cout<<"Reverse Array is ";
   int j = i - 1;
   for (; j >= 0; j--)
     cout << a[j] << " ";
